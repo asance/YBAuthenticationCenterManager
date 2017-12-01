@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC735DDF1FD0F9B000595DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735DDE1FD0F9B000595DE1 /* AppDelegate.m */; };
+		EC735DE21FD0F9B000595DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735DE11FD0F9B000595DE1 /* ViewController.m */; };
+		EC735DE51FD0F9B000595DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC735DE31FD0F9B000595DE1 /* Main.storyboard */; };
+		EC735DE71FD0F9B000595DE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC735DE61FD0F9B000595DE1 /* Assets.xcassets */; };
+		EC735DEA1FD0F9B000595DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC735DE81FD0F9B000595DE1 /* LaunchScreen.storyboard */; };
+		EC735DED1FD0F9B000595DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735DEC1FD0F9B000595DE1 /* main.m */; };
+		EC735DF71FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735DF61FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests.m */; };
+		EC735E101FD0F9FC00595DE1 /* YBAuthenItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735E031FD0F9FC00595DE1 /* YBAuthenItemManager.m */; };
+		EC735E111FD0F9FC00595DE1 /* YBAuthenticationCacheInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735E051FD0F9FC00595DE1 /* YBAuthenticationCacheInteractor.m */; };
+		EC735E121FD0F9FC00595DE1 /* YBAuthenticationCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735E071FD0F9FC00595DE1 /* YBAuthenticationCacheManager.m */; };
+		EC735E131FD0F9FC00595DE1 /* YBAuthenticationCenterEmergencyContactCacheInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735E091FD0F9FC00595DE1 /* YBAuthenticationCenterEmergencyContactCacheInteractor.m */; };
+		EC735E141FD0F9FC00595DE1 /* YBAuthenticationCenterIDCardCacheInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735E0B1FD0F9FC00595DE1 /* YBAuthenticationCenterIDCardCacheInteractor.m */; };
+		EC735E151FD0F9FC00595DE1 /* YBAuthenticationCenterIncomeCacheInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735E0D1FD0F9FC00595DE1 /* YBAuthenticationCenterIncomeCacheInteractor.m */; };
+		EC735E161FD0F9FC00595DE1 /* YBAuthenticationCenterWorkspaceCacheInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EC735E0F1FD0F9FC00595DE1 /* YBAuthenticationCenterWorkspaceCacheInteractor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC735DF31FD0F9B000595DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC735DD21FD0F9B000595DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC735DD91FD0F9B000595DE1;
+			remoteInfo = YBAuthenticationCenterManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC735DDA1FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YBAuthenticationCenterManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC735DDD1FD0F9B000595DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC735DDE1FD0F9B000595DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC735DE01FD0F9B000595DE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC735DE11FD0F9B000595DE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC735DE41FD0F9B000595DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC735DE61FD0F9B000595DE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC735DE91FD0F9B000595DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC735DEB1FD0F9B000595DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC735DEC1FD0F9B000595DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC735DF21FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YBAuthenticationCenterManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC735DF61FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBAuthenticationCenterManagerDemoTests.m; sourceTree = "<group>"; };
+		EC735DF81FD0F9B000595DE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC735E021FD0F9FC00595DE1 /* YBAuthenItemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAuthenItemManager.h; sourceTree = "<group>"; };
+		EC735E031FD0F9FC00595DE1 /* YBAuthenItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAuthenItemManager.m; sourceTree = "<group>"; };
+		EC735E041FD0F9FC00595DE1 /* YBAuthenticationCacheInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAuthenticationCacheInteractor.h; sourceTree = "<group>"; };
+		EC735E051FD0F9FC00595DE1 /* YBAuthenticationCacheInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAuthenticationCacheInteractor.m; sourceTree = "<group>"; };
+		EC735E061FD0F9FC00595DE1 /* YBAuthenticationCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAuthenticationCacheManager.h; sourceTree = "<group>"; };
+		EC735E071FD0F9FC00595DE1 /* YBAuthenticationCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAuthenticationCacheManager.m; sourceTree = "<group>"; };
+		EC735E081FD0F9FC00595DE1 /* YBAuthenticationCenterEmergencyContactCacheInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAuthenticationCenterEmergencyContactCacheInteractor.h; sourceTree = "<group>"; };
+		EC735E091FD0F9FC00595DE1 /* YBAuthenticationCenterEmergencyContactCacheInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAuthenticationCenterEmergencyContactCacheInteractor.m; sourceTree = "<group>"; };
+		EC735E0A1FD0F9FC00595DE1 /* YBAuthenticationCenterIDCardCacheInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAuthenticationCenterIDCardCacheInteractor.h; sourceTree = "<group>"; };
+		EC735E0B1FD0F9FC00595DE1 /* YBAuthenticationCenterIDCardCacheInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAuthenticationCenterIDCardCacheInteractor.m; sourceTree = "<group>"; };
+		EC735E0C1FD0F9FC00595DE1 /* YBAuthenticationCenterIncomeCacheInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAuthenticationCenterIncomeCacheInteractor.h; sourceTree = "<group>"; };
+		EC735E0D1FD0F9FC00595DE1 /* YBAuthenticationCenterIncomeCacheInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAuthenticationCenterIncomeCacheInteractor.m; sourceTree = "<group>"; };
+		EC735E0E1FD0F9FC00595DE1 /* YBAuthenticationCenterWorkspaceCacheInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAuthenticationCenterWorkspaceCacheInteractor.h; sourceTree = "<group>"; };
+		EC735E0F1FD0F9FC00595DE1 /* YBAuthenticationCenterWorkspaceCacheInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAuthenticationCenterWorkspaceCacheInteractor.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC735DD71FD0F9B000595DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC735DEF1FD0F9B000595DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC735DD11FD0F9B000595DE1 = {
+			isa = PBXGroup;
+			children = (
+				EC735DDC1FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemo */,
+				EC735DF51FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests */,
+				EC735DDB1FD0F9B000595DE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC735DDB1FD0F9B000595DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC735DDA1FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemo.app */,
+				EC735DF21FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC735DDC1FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC735E011FD0F9FC00595DE1 /* YBAuthenticationCenterManager */,
+				EC735DDD1FD0F9B000595DE1 /* AppDelegate.h */,
+				EC735DDE1FD0F9B000595DE1 /* AppDelegate.m */,
+				EC735DE01FD0F9B000595DE1 /* ViewController.h */,
+				EC735DE11FD0F9B000595DE1 /* ViewController.m */,
+				EC735DE31FD0F9B000595DE1 /* Main.storyboard */,
+				EC735DE61FD0F9B000595DE1 /* Assets.xcassets */,
+				EC735DE81FD0F9B000595DE1 /* LaunchScreen.storyboard */,
+				EC735DEB1FD0F9B000595DE1 /* Info.plist */,
+				EC735DEC1FD0F9B000595DE1 /* main.m */,
+			);
+			path = YBAuthenticationCenterManagerDemo;
+			sourceTree = "<group>";
+		};
+		EC735DF51FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC735DF61FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests.m */,
+				EC735DF81FD0F9B000595DE1 /* Info.plist */,
+			);
+			path = YBAuthenticationCenterManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		EC735E011FD0F9FC00595DE1 /* YBAuthenticationCenterManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC735E021FD0F9FC00595DE1 /* YBAuthenItemManager.h */,
+				EC735E031FD0F9FC00595DE1 /* YBAuthenItemManager.m */,
+				EC735E041FD0F9FC00595DE1 /* YBAuthenticationCacheInteractor.h */,
+				EC735E051FD0F9FC00595DE1 /* YBAuthenticationCacheInteractor.m */,
+				EC735E061FD0F9FC00595DE1 /* YBAuthenticationCacheManager.h */,
+				EC735E071FD0F9FC00595DE1 /* YBAuthenticationCacheManager.m */,
+				EC735E081FD0F9FC00595DE1 /* YBAuthenticationCenterEmergencyContactCacheInteractor.h */,
+				EC735E091FD0F9FC00595DE1 /* YBAuthenticationCenterEmergencyContactCacheInteractor.m */,
+				EC735E0A1FD0F9FC00595DE1 /* YBAuthenticationCenterIDCardCacheInteractor.h */,
+				EC735E0B1FD0F9FC00595DE1 /* YBAuthenticationCenterIDCardCacheInteractor.m */,
+				EC735E0C1FD0F9FC00595DE1 /* YBAuthenticationCenterIncomeCacheInteractor.h */,
+				EC735E0D1FD0F9FC00595DE1 /* YBAuthenticationCenterIncomeCacheInteractor.m */,
+				EC735E0E1FD0F9FC00595DE1 /* YBAuthenticationCenterWorkspaceCacheInteractor.h */,
+				EC735E0F1FD0F9FC00595DE1 /* YBAuthenticationCenterWorkspaceCacheInteractor.m */,
+			);
+			path = YBAuthenticationCenterManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC735DD91FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC735DFB1FD0F9B000595DE1 /* Build configuration list for PBXNativeTarget "YBAuthenticationCenterManagerDemo" */;
+			buildPhases = (
+				EC735DD61FD0F9B000595DE1 /* Sources */,
+				EC735DD71FD0F9B000595DE1 /* Frameworks */,
+				EC735DD81FD0F9B000595DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBAuthenticationCenterManagerDemo;
+			productName = YBAuthenticationCenterManagerDemo;
+			productReference = EC735DDA1FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC735DF11FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC735DFE1FD0F9B000595DE1 /* Build configuration list for PBXNativeTarget "YBAuthenticationCenterManagerDemoTests" */;
+			buildPhases = (
+				EC735DEE1FD0F9B000595DE1 /* Sources */,
+				EC735DEF1FD0F9B000595DE1 /* Frameworks */,
+				EC735DF01FD0F9B000595DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC735DF41FD0F9B000595DE1 /* PBXTargetDependency */,
+			);
+			name = YBAuthenticationCenterManagerDemoTests;
+			productName = YBAuthenticationCenterManagerDemoTests;
+			productReference = EC735DF21FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC735DD21FD0F9B000595DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = asance;
+				TargetAttributes = {
+					EC735DD91FD0F9B000595DE1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EC735DF11FD0F9B000595DE1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC735DD91FD0F9B000595DE1;
+					};
+				};
+			};
+			buildConfigurationList = EC735DD51FD0F9B000595DE1 /* Build configuration list for PBXProject "YBAuthenticationCenterManagerDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC735DD11FD0F9B000595DE1;
+			productRefGroup = EC735DDB1FD0F9B000595DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC735DD91FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemo */,
+				EC735DF11FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC735DD81FD0F9B000595DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC735DEA1FD0F9B000595DE1 /* LaunchScreen.storyboard in Resources */,
+				EC735DE71FD0F9B000595DE1 /* Assets.xcassets in Resources */,
+				EC735DE51FD0F9B000595DE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC735DF01FD0F9B000595DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC735DD61FD0F9B000595DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC735DE21FD0F9B000595DE1 /* ViewController.m in Sources */,
+				EC735E121FD0F9FC00595DE1 /* YBAuthenticationCacheManager.m in Sources */,
+				EC735E141FD0F9FC00595DE1 /* YBAuthenticationCenterIDCardCacheInteractor.m in Sources */,
+				EC735DED1FD0F9B000595DE1 /* main.m in Sources */,
+				EC735E131FD0F9FC00595DE1 /* YBAuthenticationCenterEmergencyContactCacheInteractor.m in Sources */,
+				EC735E101FD0F9FC00595DE1 /* YBAuthenItemManager.m in Sources */,
+				EC735E111FD0F9FC00595DE1 /* YBAuthenticationCacheInteractor.m in Sources */,
+				EC735E151FD0F9FC00595DE1 /* YBAuthenticationCenterIncomeCacheInteractor.m in Sources */,
+				EC735DDF1FD0F9B000595DE1 /* AppDelegate.m in Sources */,
+				EC735E161FD0F9FC00595DE1 /* YBAuthenticationCenterWorkspaceCacheInteractor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC735DEE1FD0F9B000595DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC735DF71FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC735DF41FD0F9B000595DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC735DD91FD0F9B000595DE1 /* YBAuthenticationCenterManagerDemo */;
+			targetProxy = EC735DF31FD0F9B000595DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC735DE31FD0F9B000595DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC735DE41FD0F9B000595DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC735DE81FD0F9B000595DE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC735DE91FD0F9B000595DE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC735DF91FD0F9B000595DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC735DFA1FD0F9B000595DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC735DFC1FD0F9B000595DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBAuthenticationCenterManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBAuthenticationCenterManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC735DFD1FD0F9B000595DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBAuthenticationCenterManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBAuthenticationCenterManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC735DFF1FD0F9B000595DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBAuthenticationCenterManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBAuthenticationCenterManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBAuthenticationCenterManagerDemo.app/YBAuthenticationCenterManagerDemo";
+			};
+			name = Debug;
+		};
+		EC735E001FD0F9B000595DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NLQUF9KEG2;
+				INFOPLIST_FILE = YBAuthenticationCenterManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asance.YBAuthenticationCenterManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YBAuthenticationCenterManagerDemo.app/YBAuthenticationCenterManagerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC735DD51FD0F9B000595DE1 /* Build configuration list for PBXProject "YBAuthenticationCenterManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC735DF91FD0F9B000595DE1 /* Debug */,
+				EC735DFA1FD0F9B000595DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC735DFB1FD0F9B000595DE1 /* Build configuration list for PBXNativeTarget "YBAuthenticationCenterManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC735DFC1FD0F9B000595DE1 /* Debug */,
+				EC735DFD1FD0F9B000595DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC735DFE1FD0F9B000595DE1 /* Build configuration list for PBXNativeTarget "YBAuthenticationCenterManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC735DFF1FD0F9B000595DE1 /* Debug */,
+				EC735E001FD0F9B000595DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC735DD21FD0F9B000595DE1 /* Project object */;
+}
